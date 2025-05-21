@@ -1,0 +1,4 @@
+Imagen -> matriz (x)px * (y)px con  x -----> 
+                                    y ^----- (Rev)
+
+3 matrices: R G B -> mezcla aditiva de colores
