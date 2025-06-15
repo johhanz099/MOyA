@@ -60,8 +60,8 @@ dat = "data/"
 make_fig(729,dat+"p1_noPol.txt",fig+"p1_noPol.pdf",2.5,True,r"Luz natural")
 make_fig(336,dat+"p2_0deg.txt",fig+"p2_0deg.pdf",2.5,True,r"Polarización $s$")
 make_fig(289,dat+"p3_90deg.txt",fig+"p3_90deg.pdf",2.5,True,r"Polarización $p$")
-make_fig(1200,dat+"p4_30deg.txt",fig+"p4_30deg.pdf",2.5,False,r"Para $\theta_i = 30^{\circ}$")
-make_fig(1200,dat+"p4_70deg.txt",fig+"p4_70deg.pdf",2.5,False,r"Para $\theta_i = 70^{\circ}$")
+#make_fig(1200,dat+"p4_30deg.txt",fig+"p4_30deg.pdf",2.5,False,r"Para $\theta_i = 30^{\circ}$")
+#make_fig(1200,dat+"p4_70deg.txt",fig+"p4_70deg.pdf",2.5,False,r"Para $\theta_i = 70^{\circ}$")
 
 
 
