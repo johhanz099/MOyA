@@ -1,4 +1,4 @@
-R_(lx)  theta_polarizator
+R_(lux)	theta_pol
 5.8	0
 6.9	10
 7.8	20
