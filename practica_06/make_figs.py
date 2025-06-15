@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.optimize import curve_fit
 plt.style.use('seaborn-v0_8-dark') 
 # El estilo 'science' requiere instalar matplotlib-scientific-style.
 # python -m pip install --user seaborn
