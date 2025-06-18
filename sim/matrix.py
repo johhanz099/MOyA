@@ -17,12 +17,12 @@ z,y = np.meshgrid(coord,coord)
 #print("Distancia total =",step_cm*size)
 
 # Def vec r con altura x
-r_x = 100 # cm
+r_x = 100 # mm
 
 # Constantes
-a = 0.000025e-1 # parametro (cm)
+a = 0.025 # parametro (mm)
 i_0 = 250 # intensidad base (u.a)
-long_onda = 532e-6 #  longitud de onda en cm RARO
+long_onda = 532e-6 #  longitud de onda en mm RARO
 
 # Puntos
 s1 = a/2
@@ -44,4 +44,5 @@ plt.imshow(Int_r)
 plt.xlabel("y")
 plt.ylabel("x")
 plt.colorbar()
-plt.savefig('fig.pdf')
+plt.show()
+#plt.savefig('fig.pdf')
